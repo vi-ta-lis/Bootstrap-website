@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  position: fixed;
+  background-color: gray;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-text1 {
+  color: white;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.footer-text2 {
+  color: white;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.footer-text1:active {
+  color: black;
+}
+
+.footer-text2:active {
+  color: black;
+}

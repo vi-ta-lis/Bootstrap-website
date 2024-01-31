@@ -1,0 +1,90 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  height: 50px;
+  background-color: rgb(146, 146, 146);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  color: white;
+}
+
+.header-name {
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.header-:hover {
+  background-color: black;
+}
+
+.left-section {
+  margin-left: 25px;
+  width: 250px;
+}
+
+.the-header {
+  cursor: pointer;
+}
+
+.header-image {
+  width: 100%;
+  height: 100%;
+}
+
+.header-name:active {
+  color: black;
+}
+
+.right-section {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  cursor: pointer;
+}
+
+.home {
+  padding-right: 10px;
+  color: white;
+}
+
+.home:active {
+  color: black;
+}
+
+.home:hover {
+  opacity: 0.5;
+}
+
+.about {
+  padding-right: 10px;
+  color: white;
+}
+
+.about:active {
+  color: black;
+}
+
+.about:hover {
+  color: yellowgreen;
+}
+
+.privacy {
+  margin-right: 40px;
+  color: white;
+}
+
+.privacy:active {
+  color: black;
+}
+
+.privacy:hover {
+  color: black;
+}
